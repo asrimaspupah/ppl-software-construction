@@ -1,0 +1,15 @@
+Pembagian Tugas Class
+
+
+Class A : Asri
+Interface B : Wendy
+Class AB : Asri
+Interface C : Wendy
+Class ABB : Asri
+
+Class P : Ade
+Class Q : Ade
+AllConstans : Edbert
+Vektor : Edbert
+Interface X : Ade
+Main Program : Edbert
