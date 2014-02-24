@@ -2,7 +2,7 @@ Pembagian Tugas Class
 
 
 Class A : Asri
-Interface B : Wendy  //coba update file by wendi
+Interface B : Wendy  //coba update file by Wendi W.
 Class AB : Asri
 Interface C : Wendy
 Class ABB : Asri
