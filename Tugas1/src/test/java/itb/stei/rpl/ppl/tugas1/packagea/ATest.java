@@ -4,9 +4,11 @@
  * and open the template in the editor.
  */
 
-package itb.stei.rpl.ppl.tugas1;
+package itb.stei.rpl.ppl.tugas1.packagea;
 
 import itb.stei.rpl.ppl.tugas1.packagea.A;
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
 import junit.framework.TestCase;
 
 /**
@@ -14,18 +16,21 @@ import junit.framework.TestCase;
  * @author asri maspupah
  */
 public class ATest extends TestCase {
-    
+    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+
     public ATest(String testName) {
         super(testName);
     }
     
     @Override
     protected void setUp() throws Exception {
+        System.setOut(new PrintStream(outContent));
         super.setUp();
     }
     
     @Override
     protected void tearDown() throws Exception {
+        System.setOut(null);
         super.tearDown();
     }
 
@@ -34,9 +39,13 @@ public class ATest extends TestCase {
     
     public void testF(){
         A obj = new A();
-        // cek print masukin le log file
-        // trus diambil isinya 
-        // bandingkan dengan expeted result nya
-        assertTrue(true);
+        obj.f();
+        String[] tempPrinted = outContent.toString().split(//
+                System.getProperty("line.separator"));
+        assertEquals("A",tempPrinted[1]);
+    }
+     public void testA(){
+        A obj = new A();
+        assertEquals("ctor-A",outContent.toString().trim());
     }
 }
