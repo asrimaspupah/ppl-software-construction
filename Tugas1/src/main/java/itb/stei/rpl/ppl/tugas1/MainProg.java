@@ -4,15 +4,26 @@ import itb.stei.rpl.ppl.tugas1.packagea.ABB;
 import java.util.Vector;
 
 /**
- *
+ * Kelas program utama
+ * 
  * @author edbert
  */
 public class MainProg implements X {
     
+    /**
+     * Meng-implement method w() dari interface X.
+     * 
+     * @return bilangan integer yang telah ditentukan
+     */
     public int w() {
         return 2;
     }
     
+    /**
+     * Method main untuk menjalankan program
+     * 
+     * @param args 
+     */
     public static void main(String[] args) {
         ABB a = new ABB();
         P p = new P();
