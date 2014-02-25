@@ -1,8 +1,10 @@
+package itb.stei.rpl.ppl.tugas1.packagea;
+
 /**
+ * interface B untuk menciptakan method v yang belum diimplementasi
+ * 
  * @author wirasta1330
  */
-
-package itb.stei.rpl.ppl.tugas1.packagea;
 
 public interface B {
     /* 
