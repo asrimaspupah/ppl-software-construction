@@ -1,6 +1,6 @@
 /**
- * @author Asri Maspupah
  * Kelas AB adalah turunan dari kelas A dan mengimplementasikan interface dari Kelas B dan C
+ * @author Asri Maspupah
  */
 
 package itb.stei.rpl.ppl.tugas1.packagea;

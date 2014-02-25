@@ -1,6 +1,6 @@
 /**
- * @author Asri Maspupah
- * Kelas A 
+ * Kelas A
+ * @author Asri Maspupah 
  */
 
 

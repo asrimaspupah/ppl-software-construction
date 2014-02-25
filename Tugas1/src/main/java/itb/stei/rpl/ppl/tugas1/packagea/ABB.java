@@ -1,6 +1,6 @@
 /**
- * @author Asri Maspupah
  * Kelas ABB adalah turunan dari kelas AB
+ * @author Asri Maspupah
  */
 
 package itb.stei.rpl.ppl.tugas1.packagea;
