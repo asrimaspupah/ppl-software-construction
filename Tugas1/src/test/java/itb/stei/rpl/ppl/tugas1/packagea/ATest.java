@@ -6,7 +6,6 @@
 
 package itb.stei.rpl.ppl.tugas1.packagea;
 
-import itb.stei.rpl.ppl.tugas1.packagea.A;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import junit.framework.TestCase;
