@@ -12,8 +12,8 @@ import java.io.PrintStream;
 import junit.framework.TestCase;
 
 /**
- * @author asri maspupah
  * Kelas Atest untuk melakukan pengujian kelas A
+ * @author asri maspupah
  */
 public class ABTest extends TestCase {
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
