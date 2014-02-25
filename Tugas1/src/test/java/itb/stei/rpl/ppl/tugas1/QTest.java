@@ -10,6 +10,8 @@ import junit.framework.TestCase;
 
 /**
  *
+ * Kelas pengujian untuk Kelas Q
+ * 
  * @author adesuk
  */
 public class QTest extends TestCase {

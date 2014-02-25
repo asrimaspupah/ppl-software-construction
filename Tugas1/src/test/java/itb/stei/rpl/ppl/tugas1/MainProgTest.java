@@ -46,6 +46,7 @@ public class MainProgTest {
      */
     @Test
     public void mainTest() {
+        
         MainProg mainProg = new MainProg();
         mainProg.main(null);
         String[] tempPrinted = outContent.toString()

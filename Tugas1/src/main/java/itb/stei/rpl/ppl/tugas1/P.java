@@ -5,11 +5,11 @@
 package itb.stei.rpl.ppl.tugas1;
 
 /**
- *
- * @author adesuk
- * 
  * Kelas berisi konstruktor yang akan mencetak 
  * sebuah tipe string ke layar
+ * 
+ * @author adesuk
+ * 
  */
 public class P {
 

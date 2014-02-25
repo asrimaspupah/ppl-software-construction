@@ -4,7 +4,7 @@ import itb.stei.rpl.ppl.tugas1.packagea.ABB;
 import java.util.Vector;
 
 /**
- * Kelas program utama
+ * Kelas program utama.
  * 
  * @author edbert
  */
