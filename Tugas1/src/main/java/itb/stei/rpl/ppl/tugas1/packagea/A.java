@@ -1,11 +1,9 @@
+package itb.stei.rpl.ppl.tugas1.packagea;
+
 /**
  * Kelas A
  * @author Asri Maspupah 
  */
-
-
-package itb.stei.rpl.ppl.tugas1.packagea;
-
 public class A {
 	
     /**
