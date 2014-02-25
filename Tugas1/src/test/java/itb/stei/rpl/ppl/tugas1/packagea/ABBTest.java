@@ -12,8 +12,8 @@ import java.io.PrintStream;
 import junit.framework.TestCase;
 
 /**
- *
  * @author asri maspupah
+ * Kelas Atest untuk melakukan pengujian kelas ABB
  */
 public class ABBTest extends TestCase {
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
@@ -34,9 +34,9 @@ public class ABBTest extends TestCase {
         super.tearDown();
     }
 
-    // TODO add test methods here. The name must begin with 'test'. For example:
-    // public void testHello() {}
-    
+    /**
+    * method untuk melakukan pengujian terhadap konstruktor tanpa parameter
+    */
     public void testABB1(){
         ABB obj = new ABB();
         String[] tempPrinted = outContent.toString().split(//
@@ -44,11 +44,18 @@ public class ABBTest extends TestCase {
         assertEquals("ctor-ABB",tempPrinted[2]);
         assertEquals("nilai atribut x = 0",obj.toString());
     }
-     public void testABB2(){
-        ABB obj = new ABB(3);
-       
+    
+    /**
+     * method untuk melakukan pengujian terhadap konstruktor dengan parameter
+     */
+    public void testABB2(){
+        ABB obj = new ABB(3);   
         assertEquals("nilai atribut x = 3",obj.toString().trim());
     }
+    
+     /**
+     * method untuk melakukan pengujian terhadap method f()
+     */
      public void testF(){
         ABB obj = new ABB();
         obj.f();
@@ -56,6 +63,10 @@ public class ABBTest extends TestCase {
                 System.getProperty("line.separator"));
         assertEquals("ABB",tempPrinted[3]);
     }
+     
+     /**
+     * method untuk melakukan pengujian terhadap method toString()
+     */
       public void testToString(){
         ABB obj = new ABB(10);
 
