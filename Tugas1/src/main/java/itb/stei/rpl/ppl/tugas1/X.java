@@ -5,10 +5,9 @@
 package itb.stei.rpl.ppl.tugas1;
 
 /**
- *
- * @author adesuk
+ * Interface X
  * 
- * Interface berfungsi untuk ........
+ * @author adesuk
  * 
  */
 public interface X {

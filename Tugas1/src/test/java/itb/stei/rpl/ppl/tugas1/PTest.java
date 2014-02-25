@@ -9,7 +9,8 @@ import java.io.PrintStream;
 import junit.framework.TestCase;
 
 /**
- *
+ * Kelas untuk pengujian Kelas P
+ * 
  * @author adesuk
  */
 public class PTest extends TestCase {
