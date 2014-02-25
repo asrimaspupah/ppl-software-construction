@@ -6,14 +6,13 @@
 
 package itb.stei.rpl.ppl.tugas1.packagea;
 
-import itb.stei.rpl.ppl.tugas1.packagea.A;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import junit.framework.TestCase;
 
 /**
- *
  * @author asri maspupah
+ * Kelas Atest untuk melakukan pengujian kelas A
  */
 public class ATest extends TestCase {
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
@@ -34,18 +33,22 @@ public class ATest extends TestCase {
         super.tearDown();
     }
 
-    // TODO add test methods here. The name must begin with 'test'. For example:
-    // public void testHello() {}
-    
+    /**
+     * method untuk melakukan pengujian terhadap konstruktor Kelas A
+     */
+    public void testA(){
+        A obj = new A();
+        assertEquals("ctor-A",outContent.toString().trim());
+    }
+
+     /**
+     * method untuk melakukan pengujian terhadap method f()
+     */
     public void testF(){
         A obj = new A();
         obj.f();
         String[] tempPrinted = outContent.toString().split(//
                 System.getProperty("line.separator"));
         assertEquals("A",tempPrinted[1]);
-    }
-     public void testA(){
-        A obj = new A();
-        assertEquals("ctor-A",outContent.toString().trim());
     }
 }
