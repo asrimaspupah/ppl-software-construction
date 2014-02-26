@@ -25,6 +25,7 @@ public class MainProg implements X {
      * @param args 
      */
     public static void main(String[] args) {
+        System.out.println("Hello!");
         ABB a = new ABB();
         P p = new P();
         Q q = new Q();
